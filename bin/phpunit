@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker exec -t lychee_php php \
+      -d xdebug.mode=coverage \
+      -r "require 'vendor/bin/phpunit';" -- -c phpunit.xml "$@"

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -f ".env" ]; then
+    source .env
+fi
+
+docker run --rm -t \
+                -v $(realpath ${LYCHEE_PROJECT_PATH})/public:/public \
+                -w /public/Lychee-front \
+                -u $(id -u):$(id -g) \
+                node:alpine \
+                npm "$@"
