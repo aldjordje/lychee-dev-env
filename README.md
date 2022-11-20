@@ -61,7 +61,7 @@ $ bin/phpstan --memory-limit=512M
 $ bin/php-cs-fixer fix
 ```
 
-### Lychee-front
+## Lychee-front
 
 Initialize the frontend submodule.
 ```bash
