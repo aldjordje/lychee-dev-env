@@ -16,7 +16,7 @@ $ git clone https://github.com/LycheeOrg/Lychee.git
 ```
 Copy .env.example to .env and edit environment variables.
 
-Comment on the already defined variables in this repository (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD and LYCHEE_UPLOADS). [See an example of the Lychee .env file here.](docs/.env)
+Comment on the already defined variables in this repository (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD and LYCHEE_UPLOADS). [See an example of the Lychee .env file here.](docs/lychee.env)
 ## Usage
 
 ```bash
