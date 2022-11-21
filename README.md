@@ -1,4 +1,4 @@
-# My development environment for the Lychee Photo Management Tool
+# My Development Environment for the Lychee Photo Management Tool
 
 nginx, php-fpm and mariadb docker setup with xdebug.  
 
