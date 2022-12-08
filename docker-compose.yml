@@ -37,6 +37,7 @@ services:
         user: 1000:1000
         volumes:
             - '${LYCHEE_PROJECT_PATH}:/var/www'
+            - './php-fpm/php.ini:/usr/local/etc/php/conf.d/php.ini'
             - './php-fpm/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini'
         extra_hosts:
             - host.docker.internal:host-gateway
