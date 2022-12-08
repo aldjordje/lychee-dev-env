@@ -12,9 +12,10 @@ RUN apt-get update; \
 		libzip-dev \
 		unzip \
 		webp \
-		libmagickwand-dev
+		libmagickwand-dev \
+        libwebp-dev
 
-RUN docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/		
+RUN docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/ --with-webp=/usr/include/
 
 RUN docker-php-ext-install \
 		bcmath \
